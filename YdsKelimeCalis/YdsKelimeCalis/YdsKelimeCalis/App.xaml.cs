@@ -13,7 +13,7 @@ namespace YdsKelimeCalis
         {
             InitializeComponent();
 
-            MainPage = new YdsKelimeCalis.MainPage();
+            MainPage = new View.MainPage();
         }
 
         protected override void OnStart()

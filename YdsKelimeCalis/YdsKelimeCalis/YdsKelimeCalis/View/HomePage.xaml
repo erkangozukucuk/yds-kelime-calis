@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="YdsKelimeCalis.View.HomePage">
+  <Grid ColumnSpacing="0" RowSpacing="0">
+    <Grid.RowDefinitions>
+      <RowDefinition/>
+      <RowDefinition/>
+      <RowDefinition/>
+      <RowDefinition/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition/>
+      <ColumnDefinition/>
+    </Grid.ColumnDefinitions>
+    <Grid Grid.Row="0" Grid.Column="0">
+      <Grid.RowDefinitions>
+        <RowDefinition/>
+        <RowDefinition/>
+      </Grid.RowDefinitions>
+      <!--<Grid.GestureRecognizers>
+        <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_OnTapped"></TapGestureRecognizer>
+      </Grid.GestureRecognizers>-->
+      <Image Grid.RowSpan="2" Source="teknoloji.png" Aspect="AspectFill"></Image>
+      <Label Grid.Row="0" Grid.RowSpan="2"
+             VerticalOptions="Center"
+             HorizontalOptions="Center"
+             VerticalTextAlignment="Center"
+             HorizontalTextAlignment="Center"
+             Text="Teknoloji"
+             FontSize="24"
+             TextColor="White"></Label>
+    </Grid>
+    <!--<Grid Grid.Row="0" Grid.Column="1">
+      <Grid.RowDefinitions>
+        <RowDefinition/>
+        <RowDefinition/>
+      </Grid.RowDefinitions>
+      <Image Grid.RowSpan="2" Source="teknoloji.png" Aspect="AspectFill"></Image>
+      <Label Grid.Row="0" Grid.RowSpan="2"
+             VerticalOptions="Center"
+             HorizontalOptions="Center"
+             VerticalTextAlignment="Center"
+             HorizontalTextAlignment="Center"
+             Text="Teknoloji"
+             FontSize="24"
+             TextColor="White"></Label>
+    </Grid>
+    <Grid Grid.Row="1" Grid.Column="0">
+      <Grid.RowDefinitions>
+        <RowDefinition/>
+        <RowDefinition/>
+      </Grid.RowDefinitions>
+      <Image Grid.RowSpan="2" Source="teknoloji.png" Aspect="AspectFill"></Image>
+      <Label Grid.Row="0" Grid.RowSpan="2"
+             VerticalOptions="Center"
+             HorizontalOptions="Center"
+             VerticalTextAlignment="Center"
+             HorizontalTextAlignment="Center"
+             Text="Teknoloji"
+             FontSize="24"
+             TextColor="White"></Label>
+    </Grid>
+    <Grid Grid.Row="1" Grid.Column="1">
+      <Grid.RowDefinitions>
+        <RowDefinition/>
+        <RowDefinition/>
+      </Grid.RowDefinitions>
+      <Image Grid.RowSpan="2" Source="teknoloji.png" Aspect="AspectFill"></Image>
+      <Label Grid.Row="0" Grid.RowSpan="2"
+             VerticalOptions="Center"
+             HorizontalOptions="Center"
+             VerticalTextAlignment="Center"
+             HorizontalTextAlignment="Center"
+             Text="Teknoloji"
+             FontSize="24"
+             TextColor="White"></Label>
+    </Grid>
+    <Grid Grid.Row="2" Grid.Column="0">
+      <Grid.RowDefinitions>
+        <RowDefinition/>
+        <RowDefinition/>
+      </Grid.RowDefinitions>
+      <Image Grid.RowSpan="2" Source="teknoloji.png" Aspect="AspectFill"></Image>
+      <Label Grid.Row="0" Grid.RowSpan="2"
+             VerticalOptions="Center"
+             HorizontalOptions="Center"
+             VerticalTextAlignment="Center"
+             HorizontalTextAlignment="Center"
+             Text="Teknoloji"
+             FontSize="24"
+             TextColor="White"></Label>
+    </Grid>
+    <Grid Grid.Row="2" Grid.Column="1">
+      <Grid.RowDefinitions>
+        <RowDefinition/>
+        <RowDefinition/>
+      </Grid.RowDefinitions>
+      <Image Grid.RowSpan="2" Source="teknoloji.png" Aspect="AspectFill"></Image>
+      <Label Grid.Row="0" Grid.RowSpan="2"
+             VerticalOptions="Center"
+             HorizontalOptions="Center"
+             VerticalTextAlignment="Center"
+             HorizontalTextAlignment="Center"
+             Text="Teknoloji"
+             FontSize="24"
+             TextColor="White"></Label>
+    </Grid>
+    <Grid Grid.Row="3" Grid.Column="0">
+      <Grid.RowDefinitions>
+        <RowDefinition/>
+        <RowDefinition/>
+      </Grid.RowDefinitions>
+      <Image Grid.RowSpan="2" Source="teknoloji.png" Aspect="AspectFill"></Image>
+      <Label Grid.Row="0" Grid.RowSpan="2"
+             VerticalOptions="Center"
+             HorizontalOptions="Center"
+             VerticalTextAlignment="Center"
+             HorizontalTextAlignment="Center"
+             Text="Teknoloji"
+             FontSize="24"
+             TextColor="White"></Label>
+    </Grid>
+    <Grid Grid.Row="3" Grid.Column="1">
+      <Grid.RowDefinitions>
+        <RowDefinition/>
+        <RowDefinition/>
+      </Grid.RowDefinitions>
+      <Image Grid.RowSpan="2" Source="teknoloji.png" Aspect="AspectFill"></Image>
+      <Label Grid.Row="0" Grid.RowSpan="2"
+             VerticalOptions="Center"
+             HorizontalOptions="Center"
+             VerticalTextAlignment="Center"
+             HorizontalTextAlignment="Center"
+             Text="Teknoloji"
+             FontSize="24"
+             TextColor="White"></Label>
+    </Grid>-->
+  </Grid>
+</ContentPage>
