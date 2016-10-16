@@ -7,7 +7,7 @@
     <view:MasterPage></view:MasterPage>
   </MasterDetailPage.Master>
   <MasterDetailPage.Detail>
-    <NavigationPage>
+    <NavigationPage BarBackgroundColor="#110838" BarTextColor="White" Title="Yds Kelime">
       <x:Arguments>
         <view:HomePage></view:HomePage>
       </x:Arguments>
